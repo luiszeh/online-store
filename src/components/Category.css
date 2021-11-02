@@ -1,0 +1,13 @@
+.Category-list {
+    margin-left: 20px;
+    margin-top: 20px;
+    border: solid 1px;
+    width: 30%;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.Category-item {
+    align-items: center;
+    text-align: center;
+}

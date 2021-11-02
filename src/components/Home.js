@@ -1,24 +1,30 @@
-import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
-import PropTypes from 'prop-types';
-import SearchBar from './SearchBar';
-import Category from './Category';
+import React, { Component } from "react";
+import { Link } from "react-router-dom";
+import PropTypes from "prop-types";
+import SearchBar from "./SearchBar";
+import Category from "./Category";
+import "./Home.css";
 
 class Home extends Component {
   render() {
-    const { cartAdd } = this.props;
+    const { cartAdd, results } = this.props;
     return (
       <div>
-        <header>
-          <h1>Grupo 23 OnLine Shop</h1>
-        </header>
-        <SearchBar cartAdd={ cartAdd } />
-        <div>
-          <Link to="/shoppingcart" data-testid="shopping-cart-button">
+        <header className="Header">
+          <h1>Front-end Online Store - MVP</h1>
+          <Link
+            className="Cart"
+            to="/shoppingcart"
+            data-testid="shopping-cart-button"
+          >
             Carrinho de Compras
           </Link>
+        </header>
+        <hr />
+        <SearchBar cartAdd={cartAdd} />
+        <div className="Category">
+          <Category />
         </div>
-        <Category />
       </div>
     );
   }

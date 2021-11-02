@@ -1,6 +1,7 @@
-import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
-import { getCategories } from '../services/api';
+import React, { Component } from "react";
+import { Link } from "react-router-dom";
+import { getCategories } from "../services/api";
+import "./Category.css";
 
 class Category extends Component {
   constructor() {
@@ -16,27 +17,30 @@ class Category extends Component {
   }
 
   changeState() {
-    getCategories().then((item) => this.setState({
-      category: [...item],
-    }));
+    getCategories().then((item) =>
+      this.setState({
+        category: [...item],
+      })
+    );
   }
 
   render() {
     const { category } = this.state;
     return (
-      <div>
+      <div className="Category-list">
         {category.map((item) => (
-          <div key={ item.id }>
+          <div className="Category-item" key={item.id}>
             <Link
               data-testid="category"
-              to={ `/categorias/${item.id}` }
+              to={`/categorias/${item.id}`}
               type="button"
-              id={ item.id }
+              id={item.id}
               className="categorybtn"
             >
-              { item.name }
+              {item.name}
             </Link>
-          </div>))}
+          </div>
+        ))}
       </div>
     );
   }

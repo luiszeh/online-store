@@ -1,14 +1,15 @@
-import React, { Component } from 'react';
-import PropTypes from 'prop-types';
-import ProductCard from './ProductsCard';
-import * as fetchApi from '../services/api';
+import React, { Component } from "react";
+import PropTypes from "prop-types";
+import ProductCard from "./ProductsCard";
+import * as fetchApi from "../services/api";
+import "./SearchBar.css";
 
 class SearchBar extends Component {
   constructor() {
     super();
     this.state = {
-      search: '',
-      id: '',
+      search: "",
+      id: "",
       product: [],
     };
 
@@ -25,24 +26,23 @@ class SearchBar extends Component {
 
   handleSubmit() {
     const { search, id } = this.state;
-    fetchApi.getProductsFromCategoryAndQuery(search, id)
-      .then(({ results }) => (
-        this.setState({
-          product: results,
-        })
-      ));
+    fetchApi.getProductsFromCategoryAndQuery(search, id).then(({ results }) =>
+      this.setState({
+        product: results,
+      })
+    );
   }
 
   render() {
     const { product } = this.state;
     const { cartAdd } = this.props;
     return (
-      <div>
+      <div className="SearchBar">
         <input
           type="text"
           placeholder="Buscar produto"
           data-testid="query-input"
-          onChange={ this.handlerChange }
+          onChange={this.handlerChange}
         />
         <p data-testid="home-initial-message">
           Digite algum termo de pesquisa ou escolha uma categoria.
@@ -50,15 +50,13 @@ class SearchBar extends Component {
         <button
           name="button"
           data-testid="query-button"
-          onClick={ this.handleSubmit }
+          onClick={this.handleSubmit}
           type="button"
         >
           Search
         </button>
-        <ProductCard
-          product={ product }
-          cartAdd={ cartAdd }
-        />
+        <h3>Categorias:</h3>
+        <ProductCard product={product} cartAdd={cartAdd} />
       </div>
     );
   }

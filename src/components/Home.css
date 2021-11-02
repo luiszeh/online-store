@@ -1,6 +1,8 @@
 .Header {
     display: flex;
     justify-content: space-between;
+    background-color: rgb(250, 253, 46);
+    margin-bottom: 20px;
 }
 
 .Header h1 {
@@ -16,6 +18,8 @@
     text-align: center;
     margin-right: 20px;
     list-style: none;
+    font-size: 30px;
+    text-decoration: none;
 }
 
 hr {

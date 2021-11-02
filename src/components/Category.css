@@ -5,9 +5,11 @@
     width: 30%;
     padding: 10px;
     border-radius: 10px;
+    text-decoration: none;
 }
 
 .Category-item {
     align-items: center;
     text-align: center;
+    text-decoration: none;
 }

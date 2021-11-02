@@ -4,6 +4,7 @@ import PropTypes from "prop-types";
 import SearchBar from "./SearchBar";
 import Category from "./Category";
 import "./Home.css";
+import { AiOutlineShoppingCart } from "react-icons/ai";
 
 class Home extends Component {
   render() {
@@ -12,15 +13,12 @@ class Home extends Component {
       <div>
         <header className="Header">
           <h1>Front-end Online Store - MVP</h1>
-          <Link
-            className="Cart"
-            to="/shoppingcart"
-            data-testid="shopping-cart-button"
-          >
-            Carrinho de Compras
-          </Link>
+          <div className="Cart">
+            <Link to="/shoppingcart" data-testid="shopping-cart-button">
+              <AiOutlineShoppingCart />
+            </Link>
+          </div>
         </header>
-        <hr />
         <SearchBar cartAdd={cartAdd} />
         <div className="Category">
           <Category />

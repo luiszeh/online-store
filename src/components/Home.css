@@ -1,3 +1,7 @@
+.Home {
+    background-color: whitesmoke;
+}
+
 .Header {
     display: flex;
     justify-content: space-between;

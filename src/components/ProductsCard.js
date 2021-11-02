@@ -1,26 +1,27 @@
-import React, { Component } from 'react';
-import PropTypes from 'prop-types';
-import { Link } from 'react-router-dom';
+import React, { Component } from "react";
+import PropTypes from "prop-types";
+import { Link } from "react-router-dom";
+import "./ProductsCard.css";
 
 class ProductCard extends Component {
   render() {
     const { product, cartAdd } = this.props;
     if (!product) {
-      return <div>Nenhum produto encontrado</div>;
+      return <div>Nenhum produto encontrado.</div>;
     }
     return (
-      <div>
+      <div className="Card">
         {product.map((item) => (
-          <div data-testid="product" key={ item.id }>
-            <h1>{ item.title }</h1>
-            <img src={ item.thumbnail } alt={ item.title } />
+          <div className="Card-item" data-testid="product" key={item.id}>
+            <h1>{item.title}</h1>
+            <img src={item.thumbnail} alt={item.title} />
             <p>
               R$
-              { item.price }
+              {item.price}
             </p>
             <div>
               <Link
-                to={ `/detalhes/${encodeURIComponent(item.title)}/${item.id}` }
+                to={`/detalhes/${encodeURIComponent(item.title)}/${item.id}`}
                 data-testid="product-detail-link"
               >
                 Detalhes do produto
@@ -30,7 +31,7 @@ class ProductCard extends Component {
               <button
                 type="button"
                 data-testid="product-add-to-cart"
-                onClick={ () => cartAdd(item) }
+                onClick={() => cartAdd(item)}
               >
                 Adicionar ao Carrinho
               </button>

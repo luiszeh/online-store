@@ -10,7 +10,7 @@ class Home extends Component {
   render() {
     const { cartAdd, results } = this.props;
     return (
-      <div>
+      <div className="Home">
         <header className="Header">
           <h1>Front-end Online Store - MVP</h1>
           <div className="Cart">

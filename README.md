@@ -11,7 +11,6 @@
   - [Usando o Trello como ferramenta kanban](#usando-o-trello-como-ferramenta-kanban)
 - [Requisitos do projeto](#requisitos-do-projeto)
   - [Grupos de prioridade](#grupos-de-prioridade)
-  - [Requisitos Bônus](#requisitos-bônus)
   - [Lista de requisitos](#lista-de-requisitos)
 
     `Requisitos Obrigatórios`
@@ -424,8 +423,6 @@ O que será verificado:
   - Faz os passos da compra com sucesso: recupera produtos de uma categoria; adiciona-os ao carrinho; faz o checkout; insere todos os dados
 ```
 
-### Bônus
-
 #### 13. Mostre junto ao ícone do carrinho a quantidade de produtos dentro dele, em todas as telas em que ele aparece
 
 **PRIORIDADE 4** - Adicionar ao ícone do carrinho, em todas as telas em que ele aparece, um número com a quantidade de produtos adicionados.
@@ -480,8 +477,6 @@ O que será verificado:
 ```
   - Exibe corretamente a informação de frete grátis dos produtos
 ```
-
-### Extras (não avaliativos):
 
 #### 16. Faça um layout para o site
 

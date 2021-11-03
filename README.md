@@ -3,20 +3,13 @@
 # Sumário
 
 - [Habilidades](#habilidades)
-- [Entregáveis](#Entregáveis)
-  - [O que deverá ser desenvolvido](#o-que-deverá-ser-desenvolvido)
-  - [Desenvolvimento](#desenvolvimento)
-  - [Data de entrega](#data-de-entrega)
-- [Instruções para entregar seu projeto](#instruções-para-entregar-seu-projeto)
-  - [Antes de começar a desenvolver](#antes-de-começar-a-desenvolver)
-  - [Durante o desenvolvimento](#durante-o-desenvolvimento)
+- [Instruções para rodar o projeto](#instruções-para-rodar-o-projeto)
 - [Como desenvolver](#como-desenvolver)
   - [Documentação da API do Mercado Livre](#documentação-da-api-do-mercado-livre)
     - [Exemplo de requisição para listar categorias](exemplo-de-requisição-para-listar-categorias)
     - [Exemplo de requisição de busca](#exemplo-de-requisição-de-busca)
   - [EsLint](#eslint)
   - [Usando o Trello como ferramenta kanban](#usando-o-trello-como-ferramenta-kanban)
-- [Como desenvolver](#como-desenvolver)
 - [Requisitos do projeto](#requisitos-do-projeto)
   - [Grupos de prioridade](#grupos-de-prioridade)
   - [Requisitos Bônus](#requisitos-bônus)
@@ -49,9 +42,6 @@
     - [20. Crie um slider lateral para exibir o carrinho na tela principal](#20-crie-um-slider-lateral-para-exibir-o-carrinho-na-tela-principal)
     - [21. Destaque, na tela principal, os produtos já adicionados ao carrinho](#21-destaque-na-tela-principal-os-produtos-já-adicionados-ao-carrinho)
     - [22. Impeça que a quantidade do produto seja negativa](#22-impeça-que-a-quantidade-do-produto-seja-negativa)
-- [Depois de terminar o desenvolvimento (opcional)](#depois-de-terminar-o-desenvolvimento-opcional)
-- [Revisando um pull request](#revisando-um-pull-request)
-- [Avisos finais](#avisos-finais)
 
 # Habilidades desenvolvidas
 

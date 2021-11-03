@@ -1,4 +1,19 @@
-# Boas vindas ao repositório do projeto de Front-End Online Store MVP!
+# Boas vindas ao repositório do projeto de Front-End Online Store MVP (Minimum Viable Product)!
+
+
+https://user-images.githubusercontent.com/78225894/140182155-0b339673-b105-44b2-a66b-0ab8a15fffa7.mp4
+
+# Equipe
+
+<a href="https://www.linkedin.com/in/dayvid-ferreira-b8740620b/">Dayvid Ferreira</a>
+
+<a href="https://www.linkedin.com/in/juliobnascimento/">Julio Barros</a>
+
+<a href="https://www.linkedin.com/in/lucasquearis/">Lucas Almeida Santos</a>
+
+<a href="https://www.linkedin.com/in/luisffg/">Luis Fernando F Gorgulho</a>
+
+<a href="">Thales Daniel</a>
 
 # Sumário
 

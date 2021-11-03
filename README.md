@@ -2,7 +2,7 @@
 
 # Sumário
 
-- [Habilidades](#habilidades)
+- [Habilidades desenvolvidas](#habilidades-desenvolvidas)
 - [Instruções para rodar o projeto](#instruções-para-rodar-o-projeto)
 - [Como desenvolver](#como-desenvolver)
   - [Documentação da API do Mercado Livre](#documentação-da-api-do-mercado-livre)

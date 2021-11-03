@@ -8,7 +8,7 @@ import { AiOutlineShoppingCart } from "react-icons/ai";
 
 class Home extends Component {
   render() {
-    const { cartAdd, results } = this.props;
+    const { cartAdd } = this.props;
     return (
       <div className="Home">
         <header className="Header">

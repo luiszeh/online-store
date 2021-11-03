@@ -3,12 +3,11 @@
 # Sumário
 
 - [Habilidades desenvolvidas](#habilidades-desenvolvidas)
+- [O que foi desenvolvido no projeto](#o-que-foi-desenvolvido-no-projeto)
 - [Instruções para rodar o projeto](#instruções-para-rodar-o-projeto)
-- [Como desenvolver](#como-desenvolver)
   - [Documentação da API do Mercado Livre](#documentação-da-api-do-mercado-livre)
     - [Exemplo de requisição para listar categorias](exemplo-de-requisição-para-listar-categorias)
     - [Exemplo de requisição de busca](#exemplo-de-requisição-de-busca)
-  - [EsLint](#eslint)
   - [Usando o Trello como ferramenta kanban](#usando-o-trello-como-ferramenta-kanban)
 - [Requisitos do projeto](#requisitos-do-projeto)
   - [Grupos de prioridade](#grupos-de-prioridade)
@@ -60,10 +59,6 @@ Neste projeto criamos uma versão simplificada, sem persistência no banco de da
   - Interagir com os produtos buscados de modo a adicioná-los e removê-los de um carrinho de compras em diferentes quantidades;
   - Visualizar detalhes e avaliações prévias de um produto, bem como criar novas avaliações;
   - E por fim, finalizar a compra (simulada) dos itens selecionados.
-
----
-
-## Desenvolvimento
 
 ---
 

@@ -70,7 +70,7 @@ Neste projeto criamos uma versão simplificada, sem persistência no banco de da
 
 ---
 
-# Intruções para rodar o projeto:
+# Intruções para rodar o projeto
 
 1. Clone o repositório
   * `git clone git@github.com:luiszeh/online-store.git`.

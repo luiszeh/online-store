@@ -525,3 +525,5 @@ O que será verificado:
 - [Tela - Detalhamento do produto com quantidade.png](https://github.com/tryber/sd-12-project-frontend-online-store/tree/master/wireframes/card_09.png)
 
 ---
+
+* Projeto proposto pela <a href="https://www.betrybe.com/">Trybe</a> e requisitos desenvolvidos por <a href="https://www.linkedin.com/in/luisffg/">Luis Fernando</a>
